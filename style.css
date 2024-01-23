@@ -1,0 +1,112 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+.main{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: black;
+}
+
+.container10{
+    height: 100%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 0;
+    border: 1px solid ;
+    
+}
+
+
+.container1{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    flex-direction: column;
+    top:-400px;
+    z-index: 1;
+    
+}
+
+#con{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    /* border: 5px solid white; */
+    padding-block: 20px;
+    padding-inline: 60px;
+    border-radius: 30px;
+    row-gap: 20px;
+}
+.newbutton{
+    height: auto;
+    width: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+}
+
+
+#inpu{
+    padding-inline: 20px;
+    padding-block: 10px;
+    border-radius: 20px 0px 0px 20px;
+    border: none;  
+    
+    
+}
+
+#btn{
+    padding-inline: 15px;
+    padding-block: 10px;
+    border: none;
+    border-radius: 0px 20px 20px 0px;
+    background-color: rgb(74, 67, 67);
+    color: white;
+}
+
+#cardi{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+#miniCard{
+    height: auto;
+    width: 100%;
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+}
+#spn1{
+    display: flex;
+    align-items: start;
+    justify-content: start;
+    flex-direction: column;
+}
+#spn2{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
